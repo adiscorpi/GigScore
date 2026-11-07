@@ -1,0 +1,2 @@
+applicant_token,persona_id,raw_gigscore,social_trust_score,agent3_adjustment,behavioral_bonus,behavioral_penalty,income_multiplier,final_gigscore,tier,decision,default_prob,thin_file,ci_low,ci_high,monthly_income,loan_amount,has_improvement_plan
+APPL_338336a0a690,raju_sharma,53.3,81.16,3,3,0,0.97,60.2,Sub-Prime,CONDITIONAL,0.3283,True,0.293,0.363,26666.68,45000.0,False

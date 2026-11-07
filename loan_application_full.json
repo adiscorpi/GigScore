@@ -1,0 +1,82 @@
+{
+  "app_number": "GS-2026-00847",
+  "application_date": "28 Mar 2026",
+  "persona_id": "raju_sharma",
+  "applicant_name": "Raju Sharma",
+  "loan_type": "vehicle",
+  "requested_amount": 45000,
+  "tenure_preference_m": 18,
+  "loan_purpose_detail": "Purchase Honda Activa 6G for Swiggy delivery",
+  "has_existing_loan": false,
+  "monthly_expense_est": 0.0,
+  "ev_preference": false,
+  "personal": {
+    "full_name": "Raju Sharma",
+    "date_of_birth": "15/03/1996",
+    "gender": "Male",
+    "dependants": 2,
+    "marital_status": "Single"
+  },
+  "kyc": {
+    "pan": "ABCRS1234F",
+    "mobile": "98765 43210",
+    "email": "raju.sharma@gmail.com",
+    "address": "Flat 12B, Shanti Nagar, Andheri East, Mumbai \u2014 400069",
+    "residence_type": "Rented",
+    "years_at_address": 0
+  },
+  "employment": {
+    "employment_type": "Gig Worker \u2014 Self Employed",
+    "platform": "Swiggy (Delivery Partner)",
+    "monthly_income": 26666.0,
+    "working_since": "March 2019 Days Employed 543 days (1.49 yrs)",
+    "city_tier": "Mumbai \u2014 Tier 1 (Metro)",
+    "existing_emi": 0.0,
+    "monthly_expenses": 0.0
+  },
+  "loan_details": {
+    "loan_type": "vehicle",
+    "loan_type_raw": "Vehicle Loan \u2014 Two Wheeler (Secured) Loan",
+    "purpose": "Purchase Honda Activa 6G for Swiggy delivery",
+    "vehicle_model": "",
+    "vehicle_price": 78000.0,
+    "down_payment": 33000.0,
+    "requested_amount": 45000,
+    "tenure_preference_m": 18,
+    "ev_preference": false,
+    "new_or_used": "New"
+  },
+  "bank": {
+    "bank_name": "HDFC Bank",
+    "account_number": "5010 0123 4567 89",
+    "ifsc": "HDFC0001234",
+    "branch": "Andheri West, Mumbai",
+    "account_since": "March 2019"
+  },
+  "gigscore_from_form": {
+    "obligation_fulfillment": 1.0,
+    "utility_payment_streak": 18,
+    "income_regularity_cv": null,
+    "inflow_outflow_ratio": 0.8594,
+    "merchant_diversity": 0.675,
+    "crunch_recovery_speed": 1.0342,
+    "social_trust_score": null,
+    "unique_trust_nodes": null,
+    "gigscore": 60.2,
+    "gigscore_band": "60\u201374",
+    "gigscore_tier": "Near-Prime",
+    "cibil_equivalent": "700\u2013749"
+  },
+  "pre_filled_decision": {
+    "decision": "CONDITIONALLY APPROVED",
+    "approved_amount": null,
+    "interest_rate_pct": 18.0,
+    "tenure_months": null,
+    "monthly_emi": 2871.0,
+    "processing_fee": 1125.0,
+    "total_interest": null,
+    "total_repayment": 51682.0,
+    "foir_used_pct": 10.8,
+    "interest_saved_vs_market": 3942.0
+  }
+}

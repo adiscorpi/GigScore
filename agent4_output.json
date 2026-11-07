@@ -1,0 +1,112 @@
+{
+  "APPL_338336a0a690": {
+    "applicant_token": "APPL_338336a0a690",
+    "persona_id": "raju_sharma",
+    "final_gigscore": 60.2,
+    "raw_gigscore": 53.3,
+    "default_prob": 0.3283,
+    "tier": "Sub-Prime",
+    "decision": "CONDITIONAL",
+    "emoji": "\u26a1",
+    "score_breakdown": {
+      "base_score": 53.25,
+      "social_trust_score": 81.16,
+      "blended_score": 56.04,
+      "behavioral_net": 3,
+      "behavioral_bonus": 3,
+      "behavioral_penalty": 0,
+      "behavioral_adjustments": [
+        {
+          "type": "bonus",
+          "points": 2,
+          "feature": "upi_utility_payment_streak",
+          "reason": "18-month utility payment streak"
+        },
+        {
+          "type": "bonus",
+          "points": 1,
+          "feature": "upi_obligation_fulfillment_rate",
+          "reason": "Paid all obligations 100% of months"
+        }
+      ],
+      "agent3_adjustment": 3,
+      "income_multiplier": 0.97,
+      "final_gigscore": 60.2
+    },
+    "tier_info": {
+      "tier": "Sub-Prime",
+      "decision": "CONDITIONAL",
+      "emoji": "\u26a1",
+      "max_loan": 30000,
+      "rate_min": 18.0,
+      "rate_max": 22.0,
+      "max_tenure_m": 12
+    },
+    "social_trust": {
+      "social_trust_score": 81.16,
+      "edge_stability": 0.7778,
+      "network_diversity": 0.675,
+      "community_risk": false,
+      "payer_diversity": 18,
+      "source": "agent3",
+      "agent3_score_adjustment": 3,
+      "agent3_behavioral_score": 7.72,
+      "agent3_zone": "CLEAR"
+    },
+    "positive_signals": [
+      {
+        "feature": "ext_source_mean",
+        "short_name": "Bureau score avg",
+        "description": "Average external credit score",
+        "shap_value": -0.1502,
+        "feature_value": 0.4987,
+        "source": "shap_agent2"
+      },
+      {
+        "feature": "AMT_ANNUITY",
+        "short_name": "Amt Annuity",
+        "description": "Feature: AMT_ANNUITY",
+        "shap_value": -0.1444,
+        "feature_value": 3750.0,
+        "source": "shap_agent2"
+      },
+      {
+        "feature": "upi_utility_payment_streak",
+        "short_name": "Utility payment streak",
+        "description": "Consecutive months of utility payments",
+        "points": 2,
+        "reason": "18-month utility payment streak",
+        "feature_value": 18.0,
+        "source": "behavioral_rule"
+      }
+    ],
+    "risk_factors": [
+      {
+        "feature": "credit_annuity_ratio",
+        "short_name": "Credit Annuity Ratio",
+        "description": "Feature: credit_annuity_ratio",
+        "shap_value": 0.1448,
+        "feature_value": 12.0,
+        "source": "shap_agent2"
+      },
+      {
+        "feature": "EXT_SOURCE_2",
+        "short_name": "No bureau history",
+        "description": "No formal credit history \u2014 scored on behavior only",
+        "shap_value": null,
+        "feature_value": null,
+        "source": "thin_file_flag"
+      }
+    ],
+    "confidence_interval": [
+      0.293,
+      0.363
+    ],
+    "confidence_note": "Model is 90% confident default probability is between 29%\u201336%",
+    "thin_file": true,
+    "reasoning": "Income is highly consistent (CV=0.00) \u2014 unusually stable for a gig worker. Perfect utility payment streak of 18 months \u2014 strongest creditworthiness signal. Spending exceeds income (ratio=0.86) \u2014 financial stress indicator. Pays all fixed obligations 100% of months \u2014 core creditworthiness confirmed. Moderate spending diversity (0.68) \u2014 some lifestyle stability. No formal credit bureau history \u2014 decision based entirely on behavioral signals. Behavioral layer added +3 points \u2014 all positive signals aligned. Agent 3 behavioral assessment added +3 points from cohort-relative strength. Overall: Mixed signals. GigScore 60.2 \u2014 Sub-Prime. Conditional approval with reduced limit.",
+    "improvement_plan": null,
+    "monthly_income": 26666.68,
+    "loan_amount": 45000.0
+  }
+}

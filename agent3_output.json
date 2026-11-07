@@ -1,0 +1,49 @@
+[
+  {
+    "persona_id": "raju_sharma",
+    "applicant_token": "APPL_338336a0a690",
+    "step3_behavioral_score": 7.72,
+    "behavioral_delta": 4.17,
+    "score_adjustment": 3,
+    "zone_recommendation": "CLEAR",
+    "model_default_probability": 0.3283,
+    "behavioral_safe_score": 0.641575,
+    "portfolio_safe_rate": 0.891559,
+    "confirmed_red_flag_count": 1,
+    "red_flag_details": [
+      {
+        "flag": "gambling",
+        "severity": 0.3,
+        "confirmed": false
+      },
+      {
+        "flag": "rent",
+        "severity": 0.0926,
+        "confirmed": false
+      },
+      {
+        "flag": "spend_balance",
+        "severity": 0.6025,
+        "confirmed": true
+      }
+    ],
+    "behavioral_signals": {
+      "upi_success_rate": 1.0,
+      "upi_inflow_outflow_ratio": 0.8594,
+      "upi_merchant_diversity_score": 0.675,
+      "income_regularity_cv": 0.0,
+      "obligation_fulfillment_rate": 1.0,
+      "spending_velocity": 0.1125,
+      "age": 31.98,
+      "years_employed": 1.49,
+      "employment_age_ratio": 0.0465,
+      "monthly_income": 26666.68
+    },
+    "social_trust_score": 81.16,
+    "group_scores": {
+      "group_a_social_trust": 0.7976,
+      "group_b_behavioral_vel": 0.8656,
+      "group_c_derived": 0.5845
+    }
+  }
+]

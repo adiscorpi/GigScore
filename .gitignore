@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.local
+.env.*.local
+
+# environments / build
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# large public datasets (download separately, see README)
+application_train.csv
+HomeCredit_columns_description.csv
+train.csv
+Loan_default.csv
+upi_transactions_2024.csv
+X_train.csv
+X_test.csv
+y_train.csv
+y_test.csv

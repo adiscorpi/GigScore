@@ -1,0 +1,12 @@
+{
+  "raju_sharma": {
+    "applicant_name": "Raju Sharma",
+    "loan_type": "vehicle",
+    "requested_amount": 45000,
+    "tenure_preference_m": 18,
+    "loan_purpose_detail": "Purchase Honda Activa 6G for Swiggy delivery",
+    "has_existing_loan": false,
+    "monthly_expense_est": 0.0,
+    "ev_preference": false
+  }
+}
